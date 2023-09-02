@@ -1,0 +1,12 @@
+package one00DaysPrograme;
+
+import java.util.Scanner;
+
+public class Without_Arthamatic {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Number:");
+        int num = sc.nextInt();
+        System.out.println("Increases the Number:"+(num<<1));
+    }
+}
